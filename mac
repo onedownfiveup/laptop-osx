@@ -18,7 +18,10 @@ export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
 echo "Installing Postgres, a good open source relational database ..."
-  brew install postgres --no-python
+  brew install mongo
+
+echo "Installing neovim"
+  brew install neovim/neovim/neovim
 
 echo "Installing Redis, a good key-value database ..."
   brew install redis
